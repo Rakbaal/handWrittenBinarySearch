@@ -6,7 +6,7 @@ const binarySearch = (target, array) => {
   console.time('testBinary');
   let min = 0;
   let max = array.length - 1;
-  let mid = Math.floor(array.length);
+  let mid = Math.floor(array.length / 2);
   let resolved = false;
   let output;
 
